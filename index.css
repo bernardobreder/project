@@ -1,0 +1,138 @@
+body {
+    background-image: url("/pub/img/bgcolor.png");
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+.container {
+    margin-top: 20px;
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.container .welcome {
+    display: none;
+}
+
+.container dt {
+    text-transform: uppercase;
+}
+
+.container dt a {
+    font-weight: normal;
+}
+
+.container section {
+    margin: 50px 0px 50px 0px;
+}
+
+.container section h1 {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 0px 0px 50px 0px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+.container section h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container section article {
+    color: lightgray;
+}
+
+.container section article:hover {
+    color: black;
+}
+
+.container section dl dt, .container section dl dd {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.container .profile dl dt, .container .profile dl dd {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.container .profile img {
+    margin-bottom: 0px;
+}
+
+.container references p {
+    margin-bottom: 0px;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.container dl dt p {
+    margin-bottom: 0px;
+}
+
+nav .nav-item, nav .navbar-text {
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+nav a.nav-link.active {
+    background-color: rgb(100,100,100) !important;
+}
+
+nav a {
+    font-size: 0.8em;
+}
+
+time, label {
+    background-color: rgb(180, 180, 180);
+    text-transform: uppercase;
+    padding: .1rem .2rem;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 80%;
+    color: #fff;
+    border-radius: .2rem;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    cursor: default;
+}
+
+@media print {
+    .container {
+        margin: 0px;
+        padding: 0px;
+        max-width: 1140px;
+    }
+    .container section h1 {
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+    .container section {
+        margin: 10px 0px 10px 0px;
+    }
+    .container dt {
+        font-weight: normal;
+    }
+    references, .reference {
+        display: none;
+    }
+    .welcome {
+        display: none !important;
+    }
+    .break-page {
+        page-break-before: always;
+    }
+}
