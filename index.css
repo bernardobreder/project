@@ -5,8 +5,9 @@ body {
 
 }
 
-.container > *:first-child {
-    margin-top: 2em;
+.container > section {
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .container > section > h1:first-child {
