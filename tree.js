@@ -39,53 +39,40 @@ $(function () {
         levels: 1,
         data: [
             {
-                text: 'Parent 1',
-                nodes: [
-                    {
-                        text: 'Child 1',
-                        nodes: [
-                            {
-                                text: 'Grandchild 1'
-                            },
-                            {
-                                text: 'Grandchild 2'
-                            }
-                        ]
-                    },
-                    {
-                        text: 'Child 2'
-                    }
-                ]
-            }, {
-                text: 'Parent 1',
-                nodes: [
-                    {
-                        text: 'Child 1',
-                        nodes: [
-                            {
-                                text: 'Grandchild 1'
-                            },
-                            {
-                                text: 'Grandchild 2'
-                            }
-                        ]
-                    },
-                    {
-                        text: 'Child 2'
-                    }
-                ]
+                text: 'email',
+            }, 
+            {
+                text: 'message'
             },
             {
-                text: 'Parent 2'
+                text: 'notifier'
             },
             {
-                text: 'Parent 3'
+                text: 'calculator'
             },
             {
-                text: 'Parent 4'
+                text: 'page'
             },
             {
-                text: 'Parent 5'
+                text: 'sheet'
+            },
+            {
+                text: 'slide'
+            },
+            {
+                text: 'book'
+            },
+            {
+                text: 'article'
+            },
+            {
+                text: 'desktop'
+            },
+            {
+                text: 'Draw'
+            },
+            {
+                text: 'filesystem'
             }
         ]
     });
