@@ -1,5 +1,6 @@
 $(function () {
     $('#treeview-gargobre').treeview({
+        levels: 1,
         data: [
             {
                 text: 'Parent 1',
@@ -35,8 +36,27 @@ $(function () {
         ]
     });
     $('#treeview-breder').treeview({
+        levels: 1,
         data: [
             {
+                text: 'Parent 1',
+                nodes: [
+                    {
+                        text: 'Child 1',
+                        nodes: [
+                            {
+                                text: 'Grandchild 1'
+                            },
+                            {
+                                text: 'Grandchild 2'
+                            }
+                        ]
+                    },
+                    {
+                        text: 'Child 2'
+                    }
+                ]
+            }, {
                 text: 'Parent 1',
                 nodes: [
                     {
