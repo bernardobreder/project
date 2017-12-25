@@ -1,0 +1,52 @@
+
+container-fluid {
+    ( 
+        gradient: rgb(200, 200, 200) ... rgb(150, 150, 150) 
+        gradient-direction: top-down
+    )
+    container {
+        /menubar/menubar.web [] ()
+        /res/img/logo (
+            align: center
+        )
+    }
+}
+
+container-fluid {
+    (
+        image: /res/img/dark
+    )
+    container {
+        (
+            image: /res/img/flower
+        )
+        h1 {
+            (
+                height: 500px
+            )
+            "..."
+        }
+    }
+}
+
+container-fluid {
+    (
+        bgcolor: rgb(200, 200, 200)
+    )
+    container {
+        (
+            padding: 50px 0px 50px 0px
+        )
+        h1 {
+            "..."
+        }
+        h2 {
+            "..."
+        }
+        p {
+            "..."
+            "..."
+            "..."
+        }
+    }
+}

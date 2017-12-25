@@ -1,0 +1,23 @@
+[
+    {
+        "name": "os.art.br",
+        "host": "os.art.br",
+        "children": [
+            {
+                "name": "index",
+                "children": [
+                    {
+                        "name": "index",
+                        "ext": "page",
+                        "url": "/"
+                    },
+                    {
+                        "name": "logo",
+                        "ext": "img",
+                        "url": "/res/img/logo"
+                    }
+                ]
+            }
+        ]
+    }
+]

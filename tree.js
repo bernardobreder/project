@@ -3,7 +3,7 @@ $(function () {
         levels: 1,
         data: [
             {
-                text: 'Parent 1',
+                text: 'index',
                 nodes: [
                     {
                         text: 'Child 1',

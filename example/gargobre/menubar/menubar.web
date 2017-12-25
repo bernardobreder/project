@@ -1,0 +1,37 @@
+container {
+    (
+        gradient: rgb(200, 200, 200) ... rgb(150, 150, 150)
+    )
+    row {
+        col {
+            link [menu-link] (src: "...") {
+                "..."
+            }
+        }
+        col {
+            link [menu-link] (src: "...") {
+                "..."
+            }
+        }
+        col {
+            link [menu-link] (src: "...") {
+                "..."
+            }
+        }
+        col {
+            link [menu-link] (src: "...") {
+                "..."
+            }
+        }
+        col {
+            link [menu-link] (src: "...") {
+                "..."
+            }
+        }
+    }
+    img (
+        src: /res/img/logo
+        align: center
+    )
+
+}
