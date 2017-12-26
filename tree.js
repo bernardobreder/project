@@ -39,40 +39,47 @@ $(function () {
         levels: 1,
         data: [
             {
-                text: 'email',
-            }, 
-            {
-                text: 'message'
-            },
-            {
-                text: 'notifier'
-            },
-            {
-                text: 'calculator'
-            },
-            {
-                text: 'page'
-            },
-            {
-                text: 'sheet'
-            },
-            {
-                text: 'slide'
-            },
-            {
-                text: 'book'
-            },
-            {
                 text: 'article'
-            },
-            {
+            }, {
+                text: 'calculator',
+                nodes: [{
+                    text: "CalculatorController"
+                }, {
+                    text: "CalculatorModel"
+                }, {
+                    text: "view",
+                    nodes: [{
+                        text: "CalculatorView"
+                    }, {
+                        text: "CalculatorViewMacOS"
+                    }, {
+                        text: "CalculatorViewIOS"
+                    }, {
+                        text: "CalculatorViewSwing"
+                    }, {
+                        text: "CalculatorViewWeb"
+                    }]
+                }]
+            }, {
                 text: 'desktop'
-            },
-            {
-                text: 'Draw'
-            },
-            {
+            }, {
+                text: 'draw'
+            }, {
+                text: 'email',
+            }, {
                 text: 'filesystem'
+            }, {
+                text: 'issue'
+            }, {
+                text: 'message'
+            }, {
+                text: 'notifier'
+            }, {
+                text: 'page'
+            }, {
+                text: 'sheet'
+            }, {
+                text: 'slide'
             }
         ]
     });
